@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section id="imc">
+        <h1>Tabela do imc</h1>
+
+        <div id="imcTable">
+          <div id="imcRange">
+            <h2>IMC</h2>
+            <ul>
+              <li>Menos que 18,5</li>
+              <li>Entre 18,5 e 24,9</li>
+              <li>Entre 25 e 29,9</li>
+              <li>Entre 30 e 34,9</li>
+              <li>Entre 35 e 39,9</li>
+              <li>Mais do que 40</li>
+            </ul>
+          </div>
+
+          <div id="imcClassification">
+            <h2>Resultado</h2>
+            <ul>
+              <li>Abaixo do Peso</li>
+              <li>Peso normal</li>
+              <li>Sobrepeso</li>
+              <li>Obesidade grau 1</li>
+              <li>Obesidade grau 2</li>
+              <li>Obesidade grau 3</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <h1>Calcula seu IMC</h1>
+      <form action="" method="get" id="imcForm">
+        <p>
+          <label for="iweight">Peso: </label>
+          <input
+            type="text"
+            name="weight"
+            id="iweight"
+            required
+            pattern="^[0-9]+(?:[.,][0-9]+)?$"
+            placeholder="Em Quilos"
+          />
+        </p>
+
+        <p>
+          <label for="iheight">Altura: </label>
+          <input
+            type="text"
+            name="height"
+            id="iheight"
+            required
+            pattern="^[0-9]+(?:[.,][0-9]+)?$"
+            placeholder="Em metros"
+          />
+        </p>
+
+        <button type="submit" id="calcularImcButton">Resultado</button>
+      </form>
+
+      <div id="imcResult"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

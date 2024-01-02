@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url("https://2.bp.blogspot.com/-J4P43NIGh9M/UK50bv6z01I/AAAAAAAAA64/GbSVicwEtxE/s1600/M+42.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden; /*Todo conteúdo que exceder a body vai ser oculto*/
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+#respostas {
+  width: 50%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  color: white;
+}
+
+#question {
+  font-size: 3.5rem;
+  padding-bottom: 0.6rem;
+  font-weight: bolder;
+}
+
+#response {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  text-align: justify;
+}
+
+#respostas button {
+  cursor: pointer;
+  border: 1px solid white;
+
+  font-size: 1.6rem;
+  font-weight: bolder;
+
+  width: 7rem;
+  height: 4rem;
+
+  border-radius: 0.5rem;
+
+  background: transparent;
+  color: #fff;
+}

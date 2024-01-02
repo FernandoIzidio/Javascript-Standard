@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Cadastro</h1>
+      <form action="Response.html" method="get" id="Form">
+        <p>
+          <label for="iname">Nome: </label>
+          <input type="text" name="name" id="iname" />
+          <span></span>
+        </p>
+
+        <p>
+          <label for="isurname">Sobrenome: </label>
+          <input type="text" name="surname" id="isurname" />
+          <span></span>
+        </p>
+
+        <p>
+          <label for="icpf">CPF: </label>
+          <input type="text" name="cpf" id="icpf" />
+          <span></span>
+        </p>
+
+        <p>
+          <label for="iuser">Usuário: </label>
+          <input type="text" name="user" id="iuser" />
+          <span></span>
+        </p>
+
+        <p>
+          <label for="ipasswd">Senha: </label>
+          <input type="password" name="passwd" id="ipasswd" />
+          <span></span>
+        </p>
+
+        <button type="submit" id="submitButton">Registrar</button>
+      </form>
+
+      <div id="fooresult"></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

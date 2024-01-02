@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Login</legend>
+
+      <form action="" method="get">
+        <div id="fieldname">
+          <p>
+            <label for="iname">Name</label><br />
+            <input type="text" id="iname" name="name" />
+          </p>
+          <p>
+            <label for="isurname">Surname</label><br />
+            <input type="text" id="isurname" name="surname" />
+          </p>
+        </div>
+
+        <p>
+          <label for="iemail">Email</label><br />
+          <input type="email" id="iemail" name="email" />
+        </p>
+
+        <p>
+          <label for="ipasswd">Password</label><br />
+          <input type="password" id="ipasswd" name="passwd" />
+        </p>
+
+        <p style="text-align: center; margin-bottom: 1rem">
+          <label id="maci" for="masc">.</label>
+          <input
+            type="radio"
+            id="masc"
+            name="Sexo"
+            value="masculino"
+            required
+          />
+
+          <label id="femi" for="masc"></label>
+          <input type="radio" id="fem" name="Sexo" value="feminino" required />
+        </p>
+
+        <button type="submit">Register</button>
+      </form>
+    </fieldset>
+    <script src="script.js"></script>
+  </body>
+</html>

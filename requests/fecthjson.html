@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, green 50%, blue);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        max-height: max-content;
+        width: 100vw;
+      }
+
+      main {
+        width: 50%;
+        height: 50%;
+        max-height: max-content;
+        background-color: white;
+        border-radius: 10px;
+        margin: 10px;
+      }
+
+      div {
+        background-color: white;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1 style="text-align: center">Dados do arquivo json</h1>
+      <div id="resultado"></div>
+    </main>
+  </body>
+  <script src="fetch2.js"></script>
+</html>
