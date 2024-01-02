@@ -1,2 +1,2 @@
 # Javascript-Standard
-Repository intended to cover the ecmascript standard library
+Repository intended to cover the EcmaScript standard library
