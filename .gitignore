@@ -1,2 +1,5 @@
 
 tools/node_modules
+tools/babelDoc/node_modules
+tools/babel/node_modules
+tools/webDocs/node_modules

@@ -1,11 +1,11 @@
 {
-  "name": "nodelibrary",
+  "name": "babelDoc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "babel index.js -o oldVersion.js --presets=@babel/env -w"
+    "babe": "babel index.js -o oldVersion.js --presets=@babel/env -w"
   },
   "keywords": [],
   "author": "",
