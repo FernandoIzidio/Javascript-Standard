@@ -19,13 +19,14 @@ CommmonJs:
 Ecma Script(mjs):
   import name from 'waypath'|'packagename'
 
+  import * as object from "pathPackage" -  Importa tudo que for exportado pelo pacote, e empacota em um objeto
 
 
-Exportação nomeada - É util quando se quer exportar varias coisas em um único módulo, esse recurso exige que exporte a declaração do objeto
+  export const name = {example: random}; - Exporta a declaração da variavel, o export de declaração pode ser usado varias vezes
 
-export const name = {example: random};
+  export {} - Exporta um objeto como valor do módulo
 
-export default - Permite exportar um único valor que vai representar o módulo, ao usar esse recurso só é possivel exportar um único item
+  export default - Permite exportar um único valor que vai representar o módulo, ao usar esse recurso só é possivel exportar um único item
 
 */
 const minhaVariavel = 42;
