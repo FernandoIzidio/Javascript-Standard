@@ -6,6 +6,42 @@
     <title>Document</title>
   </head>
   <body>
+    <main>
+      <h1>Gerador de CPF</h1>
+      <form action="">
+        <label>Gerar com pontuação?</label>
+        <p class="radioInputs">
+          <input
+            type="radio"
+            name="punctuation"
+            id="ipunctuation"
+            value="Sim"
+            required
+          />
+          <label for="ipunctuation">Sim</label>
+          <input
+            type="radio"
+            name="punctuation"
+            id="ipunctuation2"
+            value="Não"
+            required
+          />
+          <label for="ipunctuation2">Não</label>
+        </p>
+
+        <input
+          type="text"
+          name="resultCPF"
+          id="iresultCPF"
+          value="111.111.111-11"
+          readonly
+        />
+
+        <button type="submit" id="gen">Gerar CPF</button>
+        <button id="buttonCopy">Copiar</button>
+      </form>
+    </main>
+
     <script src="./assets/js/bundle.js"></script>
   </body>
 </html>
