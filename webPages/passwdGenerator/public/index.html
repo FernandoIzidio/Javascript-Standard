@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Passwd Generator</h1>
+      
+        <p>
+          <div type="text" id="passwdGeted" readonly >
+            <b><span id="passwd"></span></b>
+            <div id="foo">
+                <span id="passwdStatus">Muito Forte</span>
+                <div id="spinner" onclick="(function() {
+                    const spinner = document.querySelector('#spinner');
+                    spinner.style.animation = 'none';
+                    void spinner.offsetWidth;
+                    spinner.style.animation = 'spin 1s linear';
+                    })()">.</div>
+            </div>
+          </div>
+        </p>
+
+        <p>
+          <label for="ilenght"  class="charFont" >Tamanho da senha: </label>
+          <span id="charLenght">25</span>
+          <input type="range" name="lenght" id="ilenght" required min="0" max="50" value="25"/>
+        </p>
+
+        <p id="chars">
+            <span class="charFont">Caracteres utilizados: </span>
+        
+            <input type="checkbox" name="characters" id="upper" value="upper">
+            <label for="upper"><b>ABC</b></label>
+            <input type="checkbox" name="characters" id="lower" value="lower">
+            <label for="lower"><b>abc</b></label>
+            <input type="checkbox" name="characters" id="number" value="numbers">
+            <label for="number"><b>123</b></label>
+            <input type="checkbox" name="characters" id="symbol" value="especial">
+            <label for="especial"><b>$#@</b></label>
+        </p>
+
+
+
+    </main>
+    
+    <script src="assets/js/bundle.js"></script>
+  </body>
+</html>
