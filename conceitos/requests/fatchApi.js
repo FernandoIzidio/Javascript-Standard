@@ -1,5 +1,7 @@
 /*
 
+Toda função asyncrona retorna uma promisse por padrão.  Então ao receber dados de funções asyncronas, use .then(), para aguardar a promisse ser resolvida.
+
 fetch(url, serverdata) - faz um requisição na url, e permite enviar dados para o servidor, se o metódo for post
     .then() - Quando a requisição for bem sucedida/ promisse for resolvida, executar o metódo .then
     .catch()- Se a promisse retornar um error, capturar o erro
