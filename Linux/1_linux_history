@@ -1,0 +1,25 @@
+Linux(acrônimo recursivo de Linux is not Unix) é um projeto open-source que surgiu em 1991, criado pelo linus torvalds, com intuito de criar um sistema operacional multi-usuario, multi-tarefas, que se basea-se em aplicações open-source que de fato respeitassem a liberdade do usuário.
+
+Kernel -  motor do sistema operacional linux
+
+Caracteristicas de um SO Linux:
+    - Baseado em minix (sistema operacional unix like)
+    - Adepto do projeto/filosifia GNU
+
+
+Desktop Environment:
+    GNOME (GNU Network Object Model Environment):
+        Características: Interface limpa e moderna, design intuitivo, fácil de usar. Exemplos de distribuições que o utilizam: Ubuntu, Fedora.
+    KDE Plasma:
+        Características: Interface rica em recursos, altamente configurável, visualmente atraente. Exemplos de distribuições que o utilizam: Kubuntu, openSUSE.
+
+    Xfce:
+        Características: Leve, rápida, adequada para sistemas com recursos mais limitados.
+        Exemplos de distribuições que o utilizam: Xubuntu, Linux Mint Xfce edition.
+
+
+
+Concepts:
+    Unix-Like - São sistemas com muitas caracteristícas e comportamentos semelhantes a um sistema unix, seja na hierarquia de arquivos, filosofia de arquivos, gerenciamentos de processos e etc. Exemplos de Unix-like são o Linux, MacOs, Solaris, and etc.
+
+

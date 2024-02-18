@@ -1,0 +1,8 @@
+Unix é um sistema operacional multi-usuário e multi-tarefa que surgiu na decada de 1960, criado por Denis rithcie e Ken Thompson, com intuito de construir um SO eficiente, escalavel e portavel, baseado originalmente em assembly, o UNIX tem como principais catacterísticas:
+
+    - Hierarquia no sistema de arquivos - O unix deu origem a organização de diretório e subdiretórios hierarquicamente.
+    - Shell - O unix possui um shell para manipulação do SO, e realização de diversas tarefas
+    - Multi-usuário e multi-tarefa - O unix foi o primeiro sistema multi-usuário(que permite varios usuários em um uníco sistema) e multi-tarefa(permite a execução de diversos processos ao mesmo tempo)
+   - Modelo de permissões - O unix possui um sistema de permissões, que define quais usuários tem determinadas permissões em arquivos e diretório
+    - Portabilidade - Um dos principais trunfos do Unix é ser um sistema operacional portatil, e poder ser executado em multiplos SOS.
+

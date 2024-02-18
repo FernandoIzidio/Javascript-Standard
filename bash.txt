@@ -1,0 +1,67 @@
+        
+
+Linux:
+    Common: 
+        control + y - Refazer ação
+
+    Navegação no Sistema e Janelas
+        Control + alt + right/left arrow - Ir para Desktop
+    
+        up/down arrow - Scroll
+
+        alt + espaço -  Menu de contexto, util para capturas de tela
+    
+
+
+    Abrir aplicações:
+        alt + f2 - Abri um lançador de processos
+
+        Control + alt + T - Abre um terminal
+
+        control + alt + D - Minimiza todas janelas
+
+    Atalhos de terminal:
+        Control + shift + t - Abre novas abas no terminal
+        Control + shift + n - Abre novas guias no terminal
+        Control + shift + w - Fecha terminal atual
+
+
+
+    Bash:
+        Navegação:
+            pwd - Retorna caminho ataul
+
+        Manipulação de arquivos e diretórios:
+            cp source destino - Copia arquivo ou dir para destino
+            mv source destino - Move/renomeia arquivo para novo caminho/nome
+            rm source - Remove arquivos/diretórios
+            mkdir - Cria diretórios
+
+
+        Editor de texto:
+            Nano, VIM
+
+    
+        Histórico de comandos:
+            history - Retorna histórico de comandos
+            !! - Executa ultimo comando do histórico
+            !n - Executa comando de número n no histórico
+        
+        redirecionamento de saida:
+            > - Canaliza saida do comando para um arquivo, e substitui conteúdo existente
+            >> - Anexa saida de um comando ao final de um arquivo, sem substituir conteúdo existente
+            | - Canaliza saida de um comando para outro comando
+
+
+        Processos:
+            ps - Mostra processo e execução
+            kill - Encerra um processo
+            top ou htop - Mostra todos os processos em execução
+
+        Permissões e Proprietário:
+            chmod - Altera as permissões de um arquivo
+            chown - Altera o proprietario de um arquivo
+
+
+        Filtros:
+            grep - Filtra valor que receber de acordo com padrão

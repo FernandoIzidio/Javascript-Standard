@@ -1,0 +1,5 @@
+GNU(GNU is not unix) é uma filosofia de software, que visava desenvolver um sistema operacional essencialmente composto apenas por aplicações open-source. O projeto GNU tem como missão principal, desenovolver um software, onde o usuário tenha as 4 liberdades principais FSF(Free software foundation Richard Stellman):
+        - Free to execute (Liberdade para executar)
+        - libre to learn (Liberdade para estudar/aprender)
+        - Open to modify (Aberto para modificação)
+        - Open to Share (Aberto para redistribuição de versões melhoradas)
